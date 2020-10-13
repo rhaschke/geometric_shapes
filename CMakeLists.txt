@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(geometric_shapes)
+project(geometric_shapes VERSION 1.0.0)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
