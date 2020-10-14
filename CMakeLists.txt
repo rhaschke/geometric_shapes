@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 3.5)
-project(geometric_shapes VERSION 1.0.0)
+project(geometric_shapes)
+
+# Set VERSION from package.xml
+find_package(ament_cmake_core REQUIRED)
+ament_package_xml()
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
